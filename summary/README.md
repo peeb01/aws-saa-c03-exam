@@ -4,25 +4,38 @@
 
 ---
 
-## 📂 โครงสร้างคลังข้อมูลสรุปเชิงลึก (Deep-Dive Cheat Sheets)
+## Deep-Dive Cheat Sheets
 เนื้อหาเจาะลึกของแต่ละหมวดหมู่สามารถอ่านเพิ่มเติมได้ในโฟลเดอร์ [content/](content/):
-1. **[01 Storage & Data Transfer](content/01_storage_data_transfer.md)** - S3, EBS, EFS, FSx, Hybrid Storage, Migration, AWS Backup
-2. **[02 Compute & Scaling](content/02_compute_scaling.md)** - EC2, AMIs, Pricing Models, ASG, Lambda, Batch, Beanstalk
-3. **[03 Networking & Content Delivery](content/03_networking_content_delivery.md)** - VPC, ELB, Route 53, CloudFront, Global Accelerator
-4. **[04 Databases](content/04_databases.md)** - RDS, Aurora, DynamoDB, ElastiCache, Purpose-Built Databases
-5. **[05 Security, Identity & Compliance](content/05_security_identity_compliance.md)** - IAM, KMS, WAF, Shield, GuardDuty, Macie, Cognito, Directory Service
-6. **[06 Analytics & Data Integration](content/06_analytics_data_integration.md)** - Redshift, Athena, Glue, EMR, QuickSight, Kinesis, MSK
-7. **[07 Messaging & Application Integration](content/07_messaging_application_integration.md)** - SQS, SNS, MQ, Step Functions, API Gateway, AppSync
-8. **[08 Management, Monitoring & Governance](content/08_management_monitoring_governance.md)** - CloudWatch, EventBridge, CloudTrail, Config, Organizations, SCPs, SSM
-9. **[09 Containers, Dev Tools & Media](content/09_containers_dev_tools_media.md)** - ECS, EKS, Fargate, ECR, Amplify, Q Developer, MediaConvert
-10. **[10 Generative AI & Machine Learning](content/10_generative_ai_machine_learning.md)** - Bedrock, SageMaker, Rekognition, Polly, Transcribe, Textract, Kendra
-11. **[11 Migration, Architecture Frameworks & Advanced Patterns](content/11_migration_architecture_frameworks.md)** - DMS, MGN, Well-Architected Tool, Trusted Advisor, Corporate Hybrid AD, RAM
+- **[01 Storage & Data Transfer](content/01_storage_data_transfer.md)** - S3, EBS, EFS, FSx, Hybrid Storage, Migration, AWS Backup
+- **[02 Compute & Scaling](content/02_compute_scaling.md)** - EC2, AMIs, Pricing Models, ASG, Lambda, Batch, Beanstalk
+- **[03 Networking & Content Delivery](content/03_networking_content_delivery.md)** - VPC, ELB, Route 53, CloudFront, Global Accelerator
+- **[04 Databases](content/04_databases.md)** - RDS, Aurora, DynamoDB, ElastiCache, Purpose-Built Databases
+- **[05 Security, Identity & Compliance](content/05_security_identity_compliance.md)** - IAM, KMS, WAF, Shield, GuardDuty, Macie, Cognito, Directory Service
+- **[06 Analytics & Data Integration](content/06_analytics_data_integration.md)** - Redshift, Athena, Glue, EMR, QuickSight, Kinesis, MSK
+- **[07 Messaging & Application Integration](content/07_messaging_application_integration.md)** - SQS, SNS, MQ, Step Functions, API Gateway, AppSync
+- **[08 Management, Monitoring & Governance](content/08_management_monitoring_governance.md)** - CloudWatch, EventBridge, CloudTrail, Config, Organizations, SCPs, SSM
+- **[09 Containers, Dev Tools & Media](content/09_containers_dev_tools_media.md)** - ECS, EKS, Fargate, ECR, Amplify, Q Developer, MediaConvert
+- **[10 Generative AI & Machine Learning](content/10_generative_ai_machine_learning.md)** - Bedrock, SageMaker, Rekognition, Polly, Transcribe, Textract, Kendra
+- **[11 Migration, Architecture Frameworks & Advanced Patterns](content/11_migration_architecture_frameworks.md)** - DMS, MGN, Well-Architected Tool, Trusted Advisor, Corporate Hybrid AD, RAM
 
 ---
 
-## Cheat-Sheet Index
+## 🚀 สรุปย่อรายบริการแบบบรรทัดเดียว (Cheat-Sheet Index)
 
-### 01. Storage & Data Transfer (จับคู่ Keywords ออกสอบ)
+## สารบัญเนื้อหา (Table of Contents)
+* [01. Storage & Data Transfer](#01-storage)
+* [02. Compute & Scaling](#02-compute)
+* [03. Networking & Content Delivery](#03-networking)
+* [04. Databases](#04-databases)
+* [05. Security, Identity & Compliance](#05-security)
+* [06. Analytics & Data Integration](#06-analytics)
+* [07. Messaging & Application Integration](#07-messaging)
+* [08. Management, Monitoring & Governance](#08-management)
+* [09. Containers, Dev Tools & Media](#09-containers)
+* [10. Generative AI & Machine Learning](#10-genai)
+* [11. Migration, Architecture Frameworks & Advanced Patterns](#11-migration)
+
+### <a id="01-storage"></a>01. Storage & Data Transfer
 #### Amazon S3 (Simple Storage Service)
 - **Standard Storage Class:** เก็บข้อมูลแบบ Object ทั่วไป (Active Data), ปลายทางต้องการ High Availability (99.99%) และ Low Latency ระดับมิลลิวินาที
 - **Intelligent-Tiering Storage Class:** ปรับย้าย Storage Class อัตโนมัติ (ไม่มีค่าธรรมเนียมการย้ายและไม่มีขั้นต่ำเวลาเก็บ) เมื่อไม่ทราบ Pattern การเข้าถึงข้อมูลที่แน่นอน
@@ -110,7 +123,7 @@
 
 ---
 
-### 02. Compute & Scaling (จับคู่ Keywords ออกสอบ)
+### <a id="02-compute"></a>02. Compute & Scaling
 #### Amazon EC2 & AMIs
 - **Instance Families (T/M):** ตระกูล General Purpose เน้นความสมดุลของ CPU, Memory และ Network เหมาะกับ Web Server และระบบงานทั่วไป
 - **Instance Families (C):** ตระกูล Compute Optimized เน้นพลังประมวลผล CPU สูงสุด เหมาะกับงานคำนวณซับซ้อน, Batch Processing, High Performance Web
@@ -176,7 +189,7 @@
 
 ---
 
-### 03. Networking & Content Delivery (จับคู่ Keywords ออกสอบ)
+### <a id="03-networking"></a>03. Networking & Content Delivery
 #### VPC (Virtual Private Cloud)
 - **Public Subnet:** ซับเน็ตที่มีตารางเส้นทาง (Route Table) เชื่อมโยงตรงไปที่ Internet Gateway (IGW) เพื่อให้เครื่องภายในติดต่อและเข้าถึงอินเทอร์เน็ตได้
 - **Private Subnet:** ซับเน็ตที่ไม่มีเส้นทางตรงไปอินเทอร์เน็ต แต่มักเชื่อมผ่าน NAT Gateway ใน Public Subnet เพื่อให้ออกเน็ตได้แต่ภายนอกห้ามวิ่งเข้ามา
@@ -240,7 +253,7 @@
 
 ---
 
-### 04. Databases (จับคู่ Keywords ออกสอบ)
+### <a id="04-databases"></a>04. Databases
 #### Amazon RDS & Aurora
 - **RDS Multi-AZ Deployment:** การสำรองข้อมูลแบบซิงโครนัส (Synchronous) ข้าม AZ เพื่อความทนทานและการเปลี่ยนเครื่องสำรองขึ้นมาทำงานแทนทันทีเมื่อเครื่องหลักล่ม
 - **RDS Multi-AZ DB Cluster:** โครงสร้าง RDS ยุคใหม่ มี 1 Primary และ 2 Readable Standby Instances ช่วยเพิ่มความเร็วในการ Failover และรองรับการอ่าน
@@ -274,7 +287,7 @@
 
 ---
 
-### 05. Security, Identity & Compliance (จับคู่ Keywords ออกสอบ)
+### <a id="05-security"></a>05. Security, Identity & Compliance
 #### IAM (Identity and Access Management)
 - **IAM Users:** บัญชีระบุตัวตนบุคคลหรือผู้เข้าใช้ระบบ มีข้อมูลประจำตัวยืนยันและสิทธิ์เฉพาะบุคคลในการจัดการทรัพยากร
 - **IAM Groups:** กลุ่มที่รวบรวมสิทธิ์ผู้เข้าใช้งาน เพื่อให้ง่ายต่อการบริหารจัดการนโยบายความปลอดภัยพร้อมกันหลายคน
@@ -317,7 +330,7 @@
 
 ---
 
-### 06. Analytics & Data Integration (จับคู่ Keywords ออกสอบ)
+### <a id="06-analytics"></a>06. Analytics & Data Integration
 #### Data Analytics & Warehousing
 - **Amazon Redshift:** คลังข้อมูลวิเคราะห์เชิงลึก (OLAP) เก็บข้อมูลแบบ Columnar Storage รองรับข้อมูลขนาดระดับ Petabyte เหมาะสำหรับงาน Business Intelligence
 - **Redshift Serverless:** ทำงานวิเคราะห์และคิวรีฐานข้อมูลโดยไม่ต้องบริหารจัดการคลัสเตอร์เซิร์ฟเวอร์ จ่ายเงินตามปริมาณทรัพยากรคำนวณที่ใช้รันงานจริง
@@ -350,7 +363,7 @@
 
 ---
 
-### 07. Messaging & Application Integration (จับคู่ Keywords ออกสอบ)
+### <a id="07-messaging"></a>07. Messaging & Application Integration
 #### Amazon SQS (Simple Queue Service)
 - **SQS Standard Queue:** คิวรับส่งข้อมูลรองรับ Throughput ไม่จำกัด รับประกันข้อความถูกส่งอย่างน้อยหนึ่งครั้ง (At-least-once) แต่อาจสลับคิวกันได้
 - **SQS FIFO Queue:** คิวรับประกันการทำงานเรียงลำดับก่อนหลังอย่างแม่นยำ (First-In-First-Out) และข้อความไม่ซ้ำซ้อนแน่นอน (Exactly-once)
@@ -380,7 +393,7 @@
 
 ---
 
-### 08. Management, Monitoring & Governance (จับคู่ Keywords ออกสอบ)
+### <a id="08-management"></a>08. Management, Monitoring & Governance
 - **CloudWatch Metrics:** บริการรวบรวมข้อมูลสถานะและการใช้งานทรัพยากรของระบบเป็นตัวเลขตามคาบเวลา เพื่อใช้วิเคราะห์และตัดสินใจขยายเครื่อง
 - **CloudWatch Logs:** แหล่งรวม เก็บรักษา และตรวจสอบค้นหาข้อมูลล็อกต่างๆ จากแอปพลิเคชันและทรัพยากรบนคลาวด์ทั้งหมด
 - **CloudWatch Alarms:** ระบบเฝ้าระวังที่จะส่งแจ้งเตือนหรือกระตุ้นการทำงานของระบบขยายตัว (ASG) เมื่อค่าสถานะเกินระดับที่ตั้งไว้
@@ -409,7 +422,7 @@
 
 ---
 
-### 09. Containers, Dev Tools & Media (จับคู่ Keywords ออกสอบ)
+### <a id="09-containers"></a>09. Containers, Dev Tools & Media
 - **Amazon ECR:** คลังจัดเก็บอิมเมจระบบคอนเทนเนอร์ (Docker images) ปลอดภัยสูง มีระบบตรวจสอบวิเคราะห์หาช่องโหว่ความปลอดภัยในตัว
 - **Amazon ECS:** บริการจัดการและรันระบบตู้คอนเทนเนอร์ (Container Orchestration) ความปลอดภัยระดับสูงสุด ออกแบบมาให้ทำงานร่วมกับ AWS ได้ลึกซึ้ง
 - **ECS EC2 Launch Type:** รันคอนเทนเนอร์โดยผู้ใช้งานต้องรับผิดชอบการดูแลระบบ ปรับขนาด และตั้งเซิร์ฟเวอร์เครื่อง EC2 ขึ้นมารองรับการประมวลผลเอง
@@ -426,7 +439,7 @@
 
 ---
 
-### 10. Generative AI & Machine Learning (จับคู่ Keywords ออกสอบ)
+### <a id="10-genai"></a>10. Generative AI & Machine Learning
 - **Amazon Bedrock:** เข้าถึงและต่อยอดโมเดลปัญญาประดิษฐ์ขนาดใหญ่ (Foundation Models) ของบริษัทดังระดับโลกผ่าน Serverless API
 - **Amazon SageMaker:** แพลตฟอร์มเตรียมข้อมูล สร้าง ฝึกสอน และนำโมเดล Machine Learning ไปให้บริการแบบครบวงจร
 - **Amazon SageMaker Canvas:** หน้าต่างพัฒนา ML แบบลากวาง (No-code UI) ช่วยให้ทีมธุรกิจทั่วไปสร้างพยากรณ์ข้อมูลได้โดยไม่ต้องเขียนโค้ด
@@ -445,7 +458,7 @@
 
 ---
 
-### 11. Migration, Architecture Frameworks & Advanced Patterns (จับคู่ Keywords ออกสอบ)
+### <a id="11-migration"></a>11. Migration, Architecture Frameworks & Advanced Patterns
 #### Migration Tools
 - **AWS Migration Hub:** ศูนย์กลางสรุปรายงานและบันทึกติดตามความคืบหน้าของโครงการย้ายระบบไอทีทั้งหมดขององค์กรขึ้น AWS
 - **Application Migration Service (MGN):** ระบบย้ายเครื่องเซิร์ฟเวอร์แบบ Lift-and-Shift คัดลอกทั้งระบบปฏิบัติการและไฟล์ขึ้น EC2 แบบอัตโนมัติ

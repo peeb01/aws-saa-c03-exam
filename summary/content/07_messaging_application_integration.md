@@ -105,3 +105,9 @@ Amazon SQS คือบริการระบบคิวรับส่งข
 4.  **AWS Lambda (Backend Processing)** ตัวที่สองคอยทำหน้าที่ Poll ดึงข้อความจากคิวมาประมวลผลตัดยอดและเขียนข้อมูลลง DynamoDB
 5.  หากกระบวนการประมวลผลของ Lambda ตัวที่สองพังบ่อย ข้อความจะถูกตัดส่งไปไว้ที่ **SQS Dead Letter Queue (DLQ)**
 6.  หลังจากบันทึกข้อมูลเรียบร้อย Lambda ตัวที่สองส่งข้อความบอกความเคลื่อนไหวสำเร็จไปที่ **Amazon SNS Topic** เพื่อยิง Push Notification กลับไปแสดงความยินดีกับหน้ามือถือของลูกค้าปลายทาง
+
+
+---
+
+## ➔ การนำทาง (Navigation)
+| [« กลับหน้าหลัก (README.md)](../README.md) | [« ก่อนหน้า: 06 Analytics & Data Integration](06_analytics_data_integration.md) | [ถัดไป: 08 Management, Monitoring & Governance »](08_management_monitoring_governance.md) |

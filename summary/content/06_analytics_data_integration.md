@@ -100,3 +100,9 @@
 3.  Kinesis Data Firehose แปลงรูปแบบไฟล์และรวมบัฟเฟอร์ขนาดไฟล์ จากนั้นส่งมอบลงไปจัดเก็บบันทึกถาวรลงใน **Amazon S3 Data Lake**
 4.  ขณะเดียวกัน Firehose ทำการสำเนารายการข้อมูลส่งต่อไปยัง **Amazon OpenSearch Service** เพื่อให้ผู้ดูแลระบบสามารถค้นหาตรวจสอบเหตุการณ์ผิดปกติผ่านแดชบอร์ดหน้าจอของ OpenSearch Dashboards ได้แบบสะดวกสบาย
 5.  ผู้ใช้ระดับวิเคราะห์สามารถรันคำสั่งภาษา SQL ด้วย **Amazon Athena** ค้นหาข้อมูลเชิงลึกย้อนหลังจากระบบไฟล์ S3 Data Lake ได้โดยตรง
+
+
+---
+
+## ➔ การนำทาง (Navigation)
+| [« กลับหน้าหลัก (README.md)](../README.md) | [« ก่อนหน้า: 05 Security, Identity & Compliance](05_security_identity_compliance.md) | [ถัดไป: 07 Messaging & Application Integration »](07_messaging_application_integration.md) |

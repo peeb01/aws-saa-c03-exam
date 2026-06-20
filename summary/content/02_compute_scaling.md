@@ -179,3 +179,9 @@ AWS Lambda คือบริการประมวลผลแบบ Serverle
 2.  **S3 Event Notification** ดักความเคลื่อนไหวอัปโหลดเสร็จแล้วทำการเรียกใช้งานฟังก์ชัน **AWS Lambda**
 3.  **AWS Lambda** ทำการแปลงค่าความต้องการและทำการส่งคำสั่งรันงานต่อไปยังระบบจัดคิวของ **AWS Batch Job Queue**
 4.  **AWS Batch** สั่งการและขยายจำนวนเครื่องประมวลผลประเภท **Fargate (Serverless Container)** เข้ามาหยิบไฟล์วิดีโอนั้นจาก S3 มาประมวลผลตัดต่อ และเซฟวิดีโอผลลัพธ์กลับไปเก็บบน S3 ปลายทางเพื่อส่งมอบให้ลูกค้าต่อไป
+
+
+---
+
+## ➔ การนำทาง (Navigation)
+| [« กลับหน้าหลัก (README.md)](../README.md) | [« ก่อนหน้า: 01 Storage & Data Transfer](01_storage_data_transfer.md) | [ถัดไป: 03 Networking & Content Delivery »](03_networking_content_delivery.md) |

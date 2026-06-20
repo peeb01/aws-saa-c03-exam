@@ -114,3 +114,9 @@
 4.  EventBridge เรียกทำงานเครื่องมืออัตโนมัติของ **AWS Systems Manager (SSM) Automation Document**
 5.  SSM Automation ทำการรันสคริปต์สิทธิ์แอดมินลบการเชื่อมต่อแปลกปลอมนั้นทิ้ง และกู้ตาราง Route Table กลับมาอยู่ในสถานะปลอดภัยเช่นเดิมทันที (Auto-remediation)
 6.  ส่งรายงานสรุปประวัติเหตุการณ์ลักลอบแก้ไขและการกู้กลับคืนนี้บันทึกเข้าถัง **Amazon S3** และทำ Integrity Check บน **CloudTrail** เพื่อใช้สำหรับรายงานรอบตรวจสอบประจำเดือน
+
+
+---
+
+## ➔ การนำทาง (Navigation)
+| [« กลับหน้าหลัก (README.md)](../README.md) | [« ก่อนหน้า: 07 Messaging & Application Integration](07_messaging_application_integration.md) | [ถัดไป: 09 Containers, Dev Tools & Media »](09_containers_dev_tools_media.md) |

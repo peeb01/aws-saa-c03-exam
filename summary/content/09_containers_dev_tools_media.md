@@ -83,3 +83,9 @@
 3.  Lambda ทำการตรวจสเปคไฟล์และส่งพารามิเตอร์สั่งจ้างรันงานประมวลผลแปลงไฟล์ที่ **AWS Elemental MediaConvert**
 4.  MediaConvert ทำการแปลงไฟล์วิดีโอออกเป็นหลายระดับความละเอียดพร้อมทำฟังก์ชันปรับขนาดแบนด์วิดท์ตามเครื่องเล่น (HLS formats) และนำไฟล์ผลลัพธ์ไปเก็บบันทึกถาวรลงใน **Amazon S3 (Delivery Bucket)**
 5.  **Users** ทั่วโลกเรียกชมคลิปผ่านเครื่องเล่นวิดีโอโดยทราฟฟิกจะวิ่งรับชมผ่านระบบแคชความเร็วสูง **Amazon CloudFront** เพื่อลดภาระการโหลดไฟล์ซ้ำจากถังเก็บหลัก S3
+
+
+---
+
+## ➔ การนำทาง (Navigation)
+| [« กลับหน้าหลัก (README.md)](../README.md) | [« ก่อนหน้า: 08 Management, Monitoring & Governance](08_management_monitoring_governance.md) | [ถัดไป: 10 Generative AI & Machine Learning »](10_generative_ai_machine_learning.md) |

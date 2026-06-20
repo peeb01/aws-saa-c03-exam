@@ -76,3 +76,9 @@
 4.  Kendra ดึงสิทธิ์ความรู้ค้นหาไฟล์ PDF คู่มือที่เก็บอยู่ภายในถัง **Amazon S3 Bucket** ออกมาแปลงและคัดเลือกเนื้อหาสำคัญข้ามแหล่งข้อมูล
 5.  Kendra ส่งผลลัพธ์ย่อหน้าที่เกี่ยวข้องกลับไปให้ Bedrock ใช้ประกอบการอิงข้อมูลบริบท (Context)
 6.  Bedrock นำข้อมูลจริงจากคู่มือนั้นมาจัดระเบียบเรียบเรียงและตอบคำถามกลับไปให้ผู้ใช้ด้วยสไตล์ภาษาที่สุภาพและแม่นยำ 100%
+
+
+---
+
+## ➔ การนำทาง (Navigation)
+| [« กลับหน้าหลัก (README.md)](../README.md) | [« ก่อนหน้า: 09 Containers, Dev Tools & Media](09_containers_dev_tools_media.md) | [ถัดไป: 11 Migration & Architecture Frameworks »](11_migration_architecture_frameworks.md) |

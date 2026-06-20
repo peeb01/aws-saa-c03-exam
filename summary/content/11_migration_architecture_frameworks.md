@@ -130,3 +130,9 @@
 2.  บัญชีหลักใช้งาน **AWS Resource Access Manager (RAM)** เพื่อทำการส่งแชร์ **Private Subnets** ไปยังบัญชีนักพัฒนาอื่นๆ (App Accounts) ภายใต้โครงสร้าง AWS Organizations
 3.  **Application Developer** ในบัญชีปลายทาง เข้ามาล็อกอินและมองเห็น Private Subnets ดังกล่าวได้อัตโนมัติ และสั่งเปิดอินสแตนซ์เครื่อง **EC2 (Application Server)** ลงในซับเน็ตที่ได้รับการแชร์มา
 4.  เครื่อง EC2 จากหลากหลายบัญชีที่รันในซับเน็ตแชร์เดียวกัน สามารถสื่อสารผ่าน Private IP เครือข่ายส่วนตัวเดียวกันได้อย่างปลอดภัย สะดวก และสแกนเน็ตเวิร์กจัดระเบียบรวมศูนย์ได้ง่ายโดยไม่ต้องเซ็ต VPC Peering ข้ามบัญชีให้ปวดหัว
+
+
+---
+
+## ➔ การนำทาง (Navigation)
+| [« กลับหน้าหลัก (README.md)](../README.md) | [« ก่อนหน้า: 10 Generative AI & Machine Learning](10_generative_ai_machine_learning.md) | **11 Migration & Architecture Frameworks** |
